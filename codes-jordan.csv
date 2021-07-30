@@ -1,0 +1,20 @@
+Text,Dimension,Value
+Male,SEX,M
+Female,SEX,F
+Total,SEX,_T
+kingdom,REF_AREA,JO
+before age 18,AGE,Y0T17
+15-24,AGE,Y15T24
+15-49,AGE,Y15T49
+25-34,AGE,Y25T34
+35-49,AGE,Y35T49
+before age 15,AGE,Y0T14
+"Connecting and installing new devices (camera, printer)",COMPOSITE_BREAKDOWN,SKILL_ICTCDV
+Copy or move a file or folder,COMPOSITE_BREAKDOWN,SKILL_ICTCMFL
+"Finding, download, and install software",COMPOSITE_BREAKDOWN,SKILL_ICTSFWR
+"Preparation of electronic presentations by presentations software (including Text, images, audio, video, or graphics)",COMPOSITE_BREAKDOWN,SKILL_ICTPST
+"Send emails with attachments (document, image, video)",COMPOSITE_BREAKDOWN,SKILL_ICTATCH
+Transfer files between computer and other devices,COMPOSITE_BREAKDOWN,SKILL_ICTTRFF
+Use basic arithmetic formulas in Data tables,COMPOSITE_BREAKDOWN,SKILL_ICTSSHT
+Use copy and paste tools,COMPOSITE_BREAKDOWN,SKILL_ICTCPT
+Writing a computer program using a specialized programming language,COMPOSITE_BREAKDOWN,SKILL_ICTPRGM
