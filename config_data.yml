@@ -2,7 +2,7 @@ docs_baseurl: /fcdo-jo-data
 languages:
   - en
 site_dir: _site
-schema_file: _prose.yml
+schema_file: metadata_schema.yml
 src_dir: ''
 
 docs_branding: Jordan SDG data summary
