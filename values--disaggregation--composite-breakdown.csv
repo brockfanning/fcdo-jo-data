@@ -1,0 +1,14 @@
+Value,Disaggregation combinations using this value,Number of indicators
+IS_256KT2M,6,1
+IS_2MT10M,6,1
+IS_GE10M,6,1
+SKILL_ICTATCH,2,1
+SKILL_ICTCDV,2,1
+SKILL_ICTCMFL,2,1
+SKILL_ICTCPT,2,1
+SKILL_ICTPRGM,2,1
+SKILL_ICTPST,2,1
+SKILL_ICTSFWR,2,1
+SKILL_ICTSSHT,2,1
+_T,6,1
+Transfer files between  computer and other devices,2,1

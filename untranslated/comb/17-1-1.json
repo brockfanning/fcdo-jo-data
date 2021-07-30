@@ -1,0 +1,1 @@
+{"data":{"Year":["2014","2015","2016","2017"],"REPORTING_TYPE":["N","N","N","N"],"TIME_DETAIL":["2014","2015","2016","2017"],"SERIES":["GR_G14_GDP","GR_G14_GDP","GR_G14_GDP","GR_G14_GDP"],"UNIT_MEASURE":["PT","PT","PT","PT"],"Value":[28.57,25.51,25.76,26.1]},"edges":{"From":["REPORTING_TYPE"],"To":["TIME_DETAIL"]}}

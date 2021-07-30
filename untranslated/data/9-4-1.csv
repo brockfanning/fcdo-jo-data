@@ -1,0 +1,16 @@
+Year,Sub-indicators,REPORTING_TYPE,TIME_DETAIL,SERIES,UNIT_MEASURE,Value
+2012,Carbon dioxide emissions from fuel combustion,N,2012,EN_ATM_CO2,NUMBER,22.671
+2013,Carbon dioxide emissions from fuel combustion,N,2013,EN_ATM_CO2,NUMBER,22.344
+2014,Carbon dioxide emissions from fuel combustion,N,2014,EN_ATM_CO2,NUMBER,24.001
+2015,Carbon dioxide emissions from fuel combustion,N,2015,EN_ATM_CO2,NUMBER,23.785
+2016,Carbon dioxide emissions from fuel combustion,N,2016,EN_ATM_CO2,NUMBER,23.863
+2012,Carbon dioxide emissions per unit of GDP,N,2012,EN_ATM_CO2,NUMBER,0.32
+2013,Carbon dioxide emissions per unit of GDP,N,2013,EN_ATM_CO2,NUMBER,0.31
+2014,Carbon dioxide emissions per unit of GDP,N,2014,EN_ATM_CO2,NUMBER,0.32
+2015,Carbon dioxide emissions per unit of GDP,N,2015,EN_ATM_CO2,NUMBER,0.31
+2016,Carbon dioxide emissions per unit of GDP,N,2016,EN_ATM_CO2,NUMBER,0.31
+2012,Carbon dioxide emissions per unit of manufacturing value added,N,2012,EN_ATM_CO2,NUMBER,0.47
+2013,Carbon dioxide emissions per unit of manufacturing value added,N,2013,EN_ATM_CO2,NUMBER,0.41
+2014,Carbon dioxide emissions per unit of manufacturing value added,N,2014,EN_ATM_CO2,NUMBER,0.5
+2015,Carbon dioxide emissions per unit of manufacturing value added,N,2015,EN_ATM_CO2,NUMBER,0.38
+2016,Carbon dioxide emissions per unit of manufacturing value added,N,2016,EN_ATM_CO2,NUMBER,0.55

@@ -1,0 +1,1 @@
+{"data":{"Year":["2016"],"REPORTING_TYPE":["N"],"TIME_DETAIL":["2016"],"SERIES":["EG_TBA_H2CO"],"UNIT_MEASURE":["RO"],"Value":[0.21]},"edges":{"From":["REPORTING_TYPE"],"To":["TIME_DETAIL"]}}

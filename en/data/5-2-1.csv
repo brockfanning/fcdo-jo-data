@@ -1,0 +1,49 @@
+Year,Types of violence,AGE,REPORTING_TYPE,TIME_DETAIL,SERIES,UNIT_MEASURE,Value
+2007,Emotional violence,Y15T49,N,2007,VC_VAW_MARR,PH,14.0
+2007,Emotional violence,Y15T24,N,2007,VC_VAW_MARR,PH,11.1
+2007,Emotional violence,Y25T34,N,2007,VC_VAW_MARR,PH,14.3
+2007,Emotional violence,Y35T49,N,2007,VC_VAW_MARR,PH,14.6
+2012,Emotional violence,Y15T49,N,2012,VC_VAW_MARR,PH,17.4
+2012,Emotional violence,Y15T24,N,2012,VC_VAW_MARR,PH,15.1
+2012,Emotional violence,Y25T34,N,2012,VC_VAW_MARR,PH,18.7
+2012,Emotional violence,Y35T49,N,2012,VC_VAW_MARR,PH,17.1
+2017,Emotional violence,Y15T49,N,2017-18,VC_VAW_MARR,PH,16.1
+2017,Emotional violence,Y15T24,N,2017-18,VC_VAW_MARR,PH,16.0
+2017,Emotional violence,Y25T34,N,2017-18,VC_VAW_MARR,PH,14.6
+2017,Emotional violence,Y35T49,N,2017-18,VC_VAW_MARR,PH,17.2
+2007,Physical violence,Y15T49,N,2007,VC_VAW_MARR,PH,12.2
+2007,Physical violence,Y15T24,N,2007,VC_VAW_MARR,PH,13.2
+2007,Physical violence,Y25T34,N,2007,VC_VAW_MARR,PH,14.0
+2007,Physical violence,Y35T49,N,2007,VC_VAW_MARR,PH,10.4
+2012,Physical violence,Y15T49,N,2012,VC_VAW_MARR,PH,11.2
+2012,Physical violence,Y15T24,N,2012,VC_VAW_MARR,PH,11.9
+2012,Physical violence,Y25T34,N,2012,VC_VAW_MARR,PH,13.6
+2012,Physical violence,Y35T49,N,2012,VC_VAW_MARR,PH,9.3
+2017,Physical violence,Y15T49,N,2017-18,VC_VAW_MARR,PH,12.7
+2017,Physical violence,Y15T24,N,2017-18,VC_VAW_MARR,PH,11.5
+2017,Physical violence,Y25T34,N,2017-18,VC_VAW_MARR,PH,13.4
+2017,Physical violence,Y35T49,N,2017-18,VC_VAW_MARR,PH,12.5
+2007,Sexual violence,Y15T49,N,2007,VC_VAW_MARR,PH,5.6
+2007,Sexual violence,Y15T24,N,2007,VC_VAW_MARR,PH,6.2
+2007,Sexual violence,Y25T34,N,2007,VC_VAW_MARR,PH,6.9
+2007,Sexual violence,Y35T49,N,2007,VC_VAW_MARR,PH,4.3
+2012,Sexual violence,Y15T49,N,2012,VC_VAW_MARR,PH,6.0
+2012,Sexual violence,Y15T24,N,2012,VC_VAW_MARR,PH,5.8
+2012,Sexual violence,Y25T34,N,2012,VC_VAW_MARR,PH,6.3
+2012,Sexual violence,Y35T49,N,2012,VC_VAW_MARR,PH,5.8
+2017,Sexual violence,Y15T49,N,2017-18,VC_VAW_MARR,PH,3.3
+2017,Sexual violence,Y15T24,N,2017-18,VC_VAW_MARR,PH,2.4
+2017,Sexual violence,Y25T34,N,2017-18,VC_VAW_MARR,PH,3.0
+2017,Sexual violence,Y35T49,N,2017-18,VC_VAW_MARR,PH,3.8
+2007,Physical or sexual or emotional violence,Y15T49,N,2007,VC_VAW_MARR,PH,20.2
+2007,Physical or sexual or emotional violence,Y15T24,N,2007,VC_VAW_MARR,PH,18.3
+2007,Physical or sexual or emotional violence,Y25T34,N,2007,VC_VAW_MARR,PH,21.5
+2007,Physical or sexual or emotional violence,Y35T49,N,2007,VC_VAW_MARR,PH,19.7
+2012,Physical or sexual or emotional violence,Y15T49,N,2012,VC_VAW_MARR,PH,22.0
+2012,Physical or sexual or emotional violence,Y15T24,N,2012,VC_VAW_MARR,PH,20.1
+2012,Physical or sexual or emotional violence,Y25T34,N,2012,VC_VAW_MARR,PH,24.4
+2012,Physical or sexual or emotional violence,Y35T49,N,2012,VC_VAW_MARR,PH,20.8
+2017,Physical or sexual or emotional violence,Y15T49,N,2017-18,VC_VAW_MARR,PH,20.4
+2017,Physical or sexual or emotional violence,Y15T24,N,2017-18,VC_VAW_MARR,PH,18.4
+2017,Physical or sexual or emotional violence,Y25T34,N,2017-18,VC_VAW_MARR,PH,19.8
+2017,Physical or sexual or emotional violence,Y35T49,N,2017-18,VC_VAW_MARR,PH,21.3

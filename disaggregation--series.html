@@ -1,0 +1,602 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Disaggregation: SERIES - Jordan SDG data summary</title>
+
+            <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.css">
+            <style>
+                .btn-primary {
+                    background-color: #00703c;
+                    padding: 8px 10px 7px;
+                    border: 2px solid transparent;
+                    border-radius: 0;
+                    color: #fff;
+                    box-shadow: 0 2px 0 #002d18;
+                    text-decoration: none;
+                }
+                .btn-primary:visited {
+                    color: #fff;
+                }
+                .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+                    background-color: #005a30;
+                    text-decoration: none;
+                    border: 2px solid transparent;
+                }
+                .btn-primary:focus:not(:active):not(:hover) {
+                    border-color: #fd0;
+                    color: #0b0c0c;
+                    background-color: #fd0;
+                    box-shadow: 0 2px 0 #0b0c0c;
+                }
+                a {
+                    color: #1D70B8;
+                    text-decoration: underline;
+                }
+                a:hover {
+                    color: #003078;
+                }
+                a:visited {
+                    color: #4c2c92;
+                }
+                .download-info {
+                    margin-left: 12px;
+                }
+                .table-striped tbody tr:nth-of-type(2n+1) {
+                    background-color: #f3f2f1;
+                }
+            </style>
+        </head>
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="/fcdo-jo-data/index.html">Jordan SDG data summary</a>
+                </div>
+            </nav>
+            <main role="main">
+                <div class="container">
+                    <h1 style="margin:20px 0">Disaggregation: SERIES</h1>
+                    <div>
+                        
+        <div role="navigation" aria-describedby="contents-heading">
+            <h2 id="contents-heading">On this page</h2>
+            <ul>
+                <li><a href="#values-used">Values used in disaggregation</a></li>
+                <li><a href="#indicators-using">Indicators using disaggregation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="values-used" tabindex="-1">Values used in disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="values--disaggregation--series.csv" role="button" class="btn btn-primary" aria-describedby="values--disaggregation--series">Download CSV of values used in this disaggregation</a>
+            <div id="values--disaggregation--series" class="download-info">Size: 1.0 kB</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">57</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="values-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Value</th>
+      <th>Disaggregation combinations using this value</th>
+      <th>Number of indicators</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="disaggregation-value--bx-trf-pwkr.html">BX_TRF_PWKR</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--dc-fta-total.html">DC_FTA_TOTAL</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--dt-tds-dect.html">DT_TDS_DECT</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--eg-tba-h2co.html">EG_TBA_H2CO</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--en-atm-co2.html">EN_ATM_CO2</a></td>
+      <td>15</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--en-atm-pm25.html">EN_ATM_PM25</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--en-ewt-rcypcap.html">EN_EWT_RCYPCAP</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--en-h2o-opambq.html">EN_H2O_OPAMBQ</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--en-wwt-wwds.html">EN_WWT_WWDS</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--er-h2o-iwrmd.html">ER_H2O_IWRMD</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--er-h2o-stress.html">ER_H2O_STRESS</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--er-h2o-wueyst.html">ER_H2O_WUEYST</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--fc-acc-ssid.html">FC_ACC_SSID</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gb-pop-scierd.html">GB_POP_SCIERD</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gb-xpd-rsdv.html">GB_XPD_RSDV</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gc-gob-taxd.html">GC_GOB_TAXD</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gf-xpd-gbpc.html">GF_XPD_GBPC</a></td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gr-g14-gdp.html">GR_G14_GDP</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ic-frm-brib.html">IC_FRM_BRIB</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--is-trp-mailtkm.html">IS_TRP_MAILTKM</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--it-net-bbnd.html">IT_NET_BBND</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--it-net-bbndn.html">IT_NET_BBNDN</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--it-use-ii99.html">IT_USE_II99</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--nv-ind-manf.html">NV_IND_MANF</a></td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-adt-acts.html">SE_ADT_ACTS</a></td>
+      <td>18</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-adt-eductrn.html">SE_ADT_EDUCTRN</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-adt-funs.html">SE_ADT_FUNS</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-dev-ontrk.html">SE_DEV_ONTRK</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-gcedesd-nep.html">SE_GCEDESD_NEP</a></td>
+      <td>16</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-gpi-part.html">SE_GPI_PART</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-pre-partn.html">SE_PRE_PARTN</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-tot-cplr.html">SE_TOT_CPLR</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--se-tot-prfl.html">SE_TOT_PRFL</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-dsr-sfdrr.html">SG_DSR_SFDRR</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-dsr-sils.html">SG_DSR_SILS</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-gen-locg.html">SG_GEN_LOCG</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-gen-parl.html">SG_GEN_PARL</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-haz-cmrbasel.html">SG_HAZ_CMRBASEL</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-lgl-geneqlfp.html">SG_LGL_GENEQLFP</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-scp-cntry.html">SG_SCP_CNTRY</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-stt-capty.html">SG_STT_CAPTY</a></td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sg-stt-fpos.html">SG_STT_FPOS</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-h2o-safe.html">SH_H2O_SAFE</a></td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sh-san-defect.html">SH_SAN_DEFECT</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--si-pov-day1.html">SI_POV_DAY1</a></td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--si-pov-nahc.html">SI_POV_NAHC</a></td>
+      <td>65</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sl-tlf-manf.html">SL_TLF_MANF</a></td>
+      <td>52</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sp-dyn-mrbf15.html">SP_DYN_MRBF15</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sp-gnp-wnowns.html">SP_GNP_WNOWNS</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sp-lgl-lndagsec.html">SP_LGL_LNDAGSEC</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--tm-tax-wmfn.html">TM_TAX_WMFN</a></td>
+      <td>36</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vc-dsr-gdpls.html">VC_DSR_GDPLS</a></td>
+      <td>35</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vc-dsr-miss.html">VC_DSR_MISS</a></td>
+      <td>40</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vc-prs-unsnt.html">VC_PRS_UNSNT</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vc-vaw-dist.html">VC_VAW_DIST</a></td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vc-vaw-marr.html">VC_VAW_MARR</a></td>
+      <td>48</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vc-vaw-phypyv.html">VC_VAW_PHYPYV</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--bx-trf-pwkr.html\">BX_TRF_PWKR<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--dc-fta-total.html\">DC_FTA_TOTAL<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--dt-tds-dect.html\">DT_TDS_DECT<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--eg-tba-h2co.html\">EG_TBA_H2CO<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--en-atm-co2.html\">EN_ATM_CO2<\/a>","Disaggregation combinations using this value":15,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--en-atm-pm25.html\">EN_ATM_PM25<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--en-ewt-rcypcap.html\">EN_EWT_RCYPCAP<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--en-h2o-opambq.html\">EN_H2O_OPAMBQ<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--en-wwt-wwds.html\">EN_WWT_WWDS<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--er-h2o-iwrmd.html\">ER_H2O_IWRMD<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--er-h2o-stress.html\">ER_H2O_STRESS<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--er-h2o-wueyst.html\">ER_H2O_WUEYST<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--fc-acc-ssid.html\">FC_ACC_SSID<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gb-pop-scierd.html\">GB_POP_SCIERD<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gb-xpd-rsdv.html\">GB_XPD_RSDV<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gc-gob-taxd.html\">GC_GOB_TAXD<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gf-xpd-gbpc.html\">GF_XPD_GBPC<\/a>","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gr-g14-gdp.html\">GR_G14_GDP<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ic-frm-brib.html\">IC_FRM_BRIB<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--is-trp-mailtkm.html\">IS_TRP_MAILTKM<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--it-net-bbnd.html\">IT_NET_BBND<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--it-net-bbndn.html\">IT_NET_BBNDN<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--it-use-ii99.html\">IT_USE_II99<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--nv-ind-manf.html\">NV_IND_MANF<\/a>","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-adt-acts.html\">SE_ADT_ACTS<\/a>","Disaggregation combinations using this value":18,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-adt-eductrn.html\">SE_ADT_EDUCTRN<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-adt-funs.html\">SE_ADT_FUNS<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-dev-ontrk.html\">SE_DEV_ONTRK<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-gcedesd-nep.html\">SE_GCEDESD_NEP<\/a>","Disaggregation combinations using this value":16,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-gpi-part.html\">SE_GPI_PART<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-pre-partn.html\">SE_PRE_PARTN<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-tot-cplr.html\">SE_TOT_CPLR<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--se-tot-prfl.html\">SE_TOT_PRFL<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-dsr-sfdrr.html\">SG_DSR_SFDRR<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-dsr-sils.html\">SG_DSR_SILS<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-gen-locg.html\">SG_GEN_LOCG<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-gen-parl.html\">SG_GEN_PARL<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-haz-cmrbasel.html\">SG_HAZ_CMRBASEL<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-lgl-geneqlfp.html\">SG_LGL_GENEQLFP<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-scp-cntry.html\">SG_SCP_CNTRY<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-stt-capty.html\">SG_STT_CAPTY<\/a>","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sg-stt-fpos.html\">SG_STT_FPOS<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-h2o-safe.html\">SH_H2O_SAFE<\/a>","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sh-san-defect.html\">SH_SAN_DEFECT<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--si-pov-day1.html\">SI_POV_DAY1<\/a>","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--si-pov-nahc.html\">SI_POV_NAHC<\/a>","Disaggregation combinations using this value":65,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sl-tlf-manf.html\">SL_TLF_MANF<\/a>","Disaggregation combinations using this value":52,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sp-dyn-mrbf15.html\">SP_DYN_MRBF15<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sp-gnp-wnowns.html\">SP_GNP_WNOWNS<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sp-lgl-lndagsec.html\">SP_LGL_LNDAGSEC<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--tm-tax-wmfn.html\">TM_TAX_WMFN<\/a>","Disaggregation combinations using this value":36,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vc-dsr-gdpls.html\">VC_DSR_GDPLS<\/a>","Disaggregation combinations using this value":35,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vc-dsr-miss.html\">VC_DSR_MISS<\/a>","Disaggregation combinations using this value":40,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vc-prs-unsnt.html\">VC_PRS_UNSNT<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vc-vaw-dist.html\">VC_VAW_DIST<\/a>","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vc-vaw-marr.html\">VC_VAW_MARR<\/a>","Disaggregation combinations using this value":48,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vc-vaw-phypyv.html\">VC_VAW_PHYPYV<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1}];
+            </script>
+            
+        </div>
+        <div>
+            <h2 id="indicators-using" tabindex="-1">Indicators using disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="indicators--disaggregation--series.csv" role="button" class="btn btn-primary" aria-describedby="indicators--disaggregation--series">Download CSV of indicators using this disaggregation</a>
+            <div id="indicators--disaggregation--series" class="download-info">Size: 410 Bytes</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">54</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="indicators-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Indicator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#1-1-1</td>
+    </tr>
+    <tr>
+      <td>#1-2-1</td>
+    </tr>
+    <tr>
+      <td>#1-5-1</td>
+    </tr>
+    <tr>
+      <td>#1-5-2</td>
+    </tr>
+    <tr>
+      <td>#1-5-3</td>
+    </tr>
+    <tr>
+      <td>#1-5-4</td>
+    </tr>
+    <tr>
+      <td>#11-6-2</td>
+    </tr>
+    <tr>
+      <td>#12-1-1</td>
+    </tr>
+    <tr>
+      <td>#12-4-1</td>
+    </tr>
+    <tr>
+      <td>#12-5-1</td>
+    </tr>
+    <tr>
+      <td>#16-2-1</td>
+    </tr>
+    <tr>
+      <td>#16-2-2</td>
+    </tr>
+    <tr>
+      <td>#16-3-2</td>
+    </tr>
+    <tr>
+      <td>#16-5-2</td>
+    </tr>
+    <tr>
+      <td>#16-6-1</td>
+    </tr>
+    <tr>
+      <td>#17-1-1</td>
+    </tr>
+    <tr>
+      <td>#17-1-2</td>
+    </tr>
+    <tr>
+      <td>#17-10-1</td>
+    </tr>
+    <tr>
+      <td>#17-18-2</td>
+    </tr>
+    <tr>
+      <td>#17-19-1</td>
+    </tr>
+    <tr>
+      <td>#17-3-2</td>
+    </tr>
+    <tr>
+      <td>#17-4-1</td>
+    </tr>
+    <tr>
+      <td>#17-6-2</td>
+    </tr>
+    <tr>
+      <td>#17-8-1</td>
+    </tr>
+    <tr>
+      <td>#17-9-1</td>
+    </tr>
+    <tr>
+      <td>#4-1-1</td>
+    </tr>
+    <tr>
+      <td>#4-1-2</td>
+    </tr>
+    <tr>
+      <td>#4-2-1</td>
+    </tr>
+    <tr>
+      <td>#4-2-2</td>
+    </tr>
+    <tr>
+      <td>#4-3-1</td>
+    </tr>
+    <tr>
+      <td>#4-4-1</td>
+    </tr>
+    <tr>
+      <td>#4-5-1</td>
+    </tr>
+    <tr>
+      <td>#4-6-1</td>
+    </tr>
+    <tr>
+      <td>#4-7-1</td>
+    </tr>
+    <tr>
+      <td>#5-1-1</td>
+    </tr>
+    <tr>
+      <td>#5-2-1</td>
+    </tr>
+    <tr>
+      <td>#5-3-1</td>
+    </tr>
+    <tr>
+      <td>#5-5-1</td>
+    </tr>
+    <tr>
+      <td>#5-7-1</td>
+    </tr>
+    <tr>
+      <td>#6-1-1</td>
+    </tr>
+    <tr>
+      <td>#6-2-1</td>
+    </tr>
+    <tr>
+      <td>#6-3-1</td>
+    </tr>
+    <tr>
+      <td>#6-3-2</td>
+    </tr>
+    <tr>
+      <td>#6-4-1</td>
+    </tr>
+    <tr>
+      <td>#6-4-2</td>
+    </tr>
+    <tr>
+      <td>#6-5-1</td>
+    </tr>
+    <tr>
+      <td>#6-5-2</td>
+    </tr>
+    <tr>
+      <td>#9-1-2</td>
+    </tr>
+    <tr>
+      <td>#9-2-1</td>
+    </tr>
+    <tr>
+      <td>#9-2-2</td>
+    </tr>
+    <tr>
+      <td>#9-3-2</td>
+    </tr>
+    <tr>
+      <td>#9-4-1</td>
+    </tr>
+    <tr>
+      <td>#9-5-1</td>
+    </tr>
+    <tr>
+      <td>#9-5-2</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['indicators-table'] = [{"Indicator":"#1-1-1"},{"Indicator":"#1-2-1"},{"Indicator":"#1-5-1"},{"Indicator":"#1-5-2"},{"Indicator":"#1-5-3"},{"Indicator":"#1-5-4"},{"Indicator":"#11-6-2"},{"Indicator":"#12-1-1"},{"Indicator":"#12-4-1"},{"Indicator":"#12-5-1"},{"Indicator":"#16-2-1"},{"Indicator":"#16-2-2"},{"Indicator":"#16-3-2"},{"Indicator":"#16-5-2"},{"Indicator":"#16-6-1"},{"Indicator":"#17-1-1"},{"Indicator":"#17-1-2"},{"Indicator":"#17-10-1"},{"Indicator":"#17-18-2"},{"Indicator":"#17-19-1"},{"Indicator":"#17-3-2"},{"Indicator":"#17-4-1"},{"Indicator":"#17-6-2"},{"Indicator":"#17-8-1"},{"Indicator":"#17-9-1"},{"Indicator":"#4-1-1"},{"Indicator":"#4-1-2"},{"Indicator":"#4-2-1"},{"Indicator":"#4-2-2"},{"Indicator":"#4-3-1"},{"Indicator":"#4-4-1"},{"Indicator":"#4-5-1"},{"Indicator":"#4-6-1"},{"Indicator":"#4-7-1"},{"Indicator":"#5-1-1"},{"Indicator":"#5-2-1"},{"Indicator":"#5-3-1"},{"Indicator":"#5-5-1"},{"Indicator":"#5-7-1"},{"Indicator":"#6-1-1"},{"Indicator":"#6-2-1"},{"Indicator":"#6-3-1"},{"Indicator":"#6-3-2"},{"Indicator":"#6-4-1"},{"Indicator":"#6-4-2"},{"Indicator":"#6-5-1"},{"Indicator":"#6-5-2"},{"Indicator":"#9-1-2"},{"Indicator":"#9-2-1"},{"Indicator":"#9-2-2"},{"Indicator":"#9-3-2"},{"Indicator":"#9-4-1"},{"Indicator":"#9-5-1"},{"Indicator":"#9-5-2"}];
+            </script>
+            
+        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script>
+            if (typeof sdgBuild !== 'undefined' && sdgBuild.tables) {
+                var tableIds = Object.keys(sdgBuild.tables);
+                for (var i = 0; i < tableIds.length; i++) {
+                    var tableId = tableIds[i];
+                    $('#' + tableId).openSdgTable(sdgBuild.tables[tableId]).find('td').each(function() {
+                        if (!isNaN($(this).text())) {
+                            $(this).css('text-align', 'right');
+                        }
+                    })
+                }
+            }
+            </script>
+        </html>
+        

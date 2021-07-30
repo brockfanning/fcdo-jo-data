@@ -1,0 +1,41 @@
+Year,Sub-indicators,REPORTING_TYPE,TIME_DETAIL,SERIES,UNIT_MEASURE,Value
+2015,Number of missing persons due to disaster (number),N,2015,VC_DSR_MISS,NUMBER,
+2016,Number of missing persons due to disaster (number),N,2016,VC_DSR_MISS,NUMBER,
+2017,Number of missing persons due to disaster (number),N,2017,VC_DSR_MISS,NUMBER,
+2018,Number of missing persons due to disaster (number),N,2018,VC_DSR_MISS,NUMBER,8.0
+2015,Number of people affected by disaster (number),N,2015,VC_DSR_MISS,NUMBER,69.0
+2016,Number of people affected by disaster (number),N,2016,VC_DSR_MISS,NUMBER,1712.0
+2017,Number of people affected by disaster (number),N,2017,VC_DSR_MISS,NUMBER,7636.0
+2018,Number of people affected by disaster (number),N,2018,VC_DSR_MISS,NUMBER,82.0
+2015,Number of deaths due to disaster (number),N,2015,VC_DSR_MISS,NUMBER,7.0
+2016,Number of deaths due to disaster (number),N,2016,VC_DSR_MISS,NUMBER,
+2017,Number of deaths due to disaster (number),N,2017,VC_DSR_MISS,NUMBER,5.0
+2018,Number of deaths due to disaster (number),N,2018,VC_DSR_MISS,NUMBER,
+2015,"Number of deaths and missing persons attributed to disasters per 100,000 population (number)",N,2015,VC_DSR_MISS,NUMBER,0.0
+2016,"Number of deaths and missing persons attributed to disasters per 100,000 population (number)",N,2016,VC_DSR_MISS,NUMBER,
+2017,"Number of deaths and missing persons attributed to disasters per 100,000 population (number)",N,2017,VC_DSR_MISS,NUMBER,0.0
+2018,"Number of deaths and missing persons attributed to disasters per 100,000 population (number)",N,2018,VC_DSR_MISS,NUMBER,0.0
+2015,Number of deaths and missing persons attributed to disasters (number),N,2015,VC_DSR_MISS,NUMBER,7.0
+2016,Number of deaths and missing persons attributed to disasters (number),N,2016,VC_DSR_MISS,NUMBER,0.0
+2017,Number of deaths and missing persons attributed to disasters (number),N,2017,VC_DSR_MISS,NUMBER,5.0
+2018,Number of deaths and missing persons attributed to disasters (number),N,2018,VC_DSR_MISS,NUMBER,8.0
+2015,"Number of directly affected persons attributed to disasters per 100,000 population (number)",N,2015,VC_DSR_MISS,NUMBER,1.0
+2016,"Number of directly affected persons attributed to disasters per 100,000 population (number)",N,2016,VC_DSR_MISS,NUMBER,18.0
+2017,"Number of directly affected persons attributed to disasters per 100,000 population (number)",N,2017,VC_DSR_MISS,NUMBER,79.0
+2018,"Number of directly affected persons attributed to disasters per 100,000 population (number)",N,2018,VC_DSR_MISS,NUMBER,1.0
+2015,Number of injured or ill people attributed to disasters (number),N,2015,VC_DSR_MISS,NUMBER,69.0
+2016,Number of injured or ill people attributed to disasters (number),N,2016,VC_DSR_MISS,NUMBER,481.0
+2017,Number of injured or ill people attributed to disasters (number),N,2017,VC_DSR_MISS,NUMBER,6613.0
+2018,Number of injured or ill people attributed to disasters (number),N,2018,VC_DSR_MISS,NUMBER,82.0
+2015,Number of people whose destroyed dwellings were attributed to disasters (number),N,2015,VC_DSR_MISS,NUMBER,
+2016,Number of people whose destroyed dwellings were attributed to disasters (number),N,2016,VC_DSR_MISS,NUMBER,14.0
+2017,Number of people whose destroyed dwellings were attributed to disasters (number),N,2017,VC_DSR_MISS,NUMBER,145.0
+2018,Number of people whose destroyed dwellings were attributed to disasters (number),N,2018,VC_DSR_MISS,NUMBER,
+2015,Number of people whose damaged dwellings were attributed to disasters (number),N,2015,VC_DSR_MISS,NUMBER,
+2016,Number of people whose damaged dwellings were attributed to disasters (number),N,2016,VC_DSR_MISS,NUMBER,10.0
+2017,Number of people whose damaged dwellings were attributed to disasters (number),N,2017,VC_DSR_MISS,NUMBER,463.0
+2018,Number of people whose damaged dwellings were attributed to disasters (number),N,2018,VC_DSR_MISS,NUMBER,
+2015,"Number of people whose livelihoods were disrupted or destroyed, attributed to disasters (number)",N,2015,VC_DSR_MISS,NUMBER,
+2016,"Number of people whose livelihoods were disrupted or destroyed, attributed to disasters (number)",N,2016,VC_DSR_MISS,NUMBER,1207.0
+2017,"Number of people whose livelihoods were disrupted or destroyed, attributed to disasters (number)",N,2017,VC_DSR_MISS,NUMBER,415.0
+2018,"Number of people whose livelihoods were disrupted or destroyed, attributed to disasters (number)",N,2018,VC_DSR_MISS,NUMBER,

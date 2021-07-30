@@ -1,0 +1,1 @@
+{"data":{"Year":["2018","2017","2016","2015","2014"],"REPORTING_TYPE":["N","N","N","N","N"],"TIME_DETAIL":["2018","2017","2016","2015","2014"],"SERIES":["SH_H2O_SAFE","SH_H2O_SAFE","SH_H2O_SAFE","SH_H2O_SAFE","SH_H2O_SAFE"],"UNIT_MEASURE":["PT","PT","PT","PT","PT"],"Value":[0.0,93.82,93.84,93.87,93.9]},"edges":{"From":["REPORTING_TYPE"],"To":["TIME_DETAIL"]}}

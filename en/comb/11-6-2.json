@@ -1,0 +1,1 @@
+{"data":{"Year":["2016","2016"],"Area":["URBAN","ALLAREA"],"REPORTING_TYPE":["N","N"],"TIME_DETAIL":["2016","2016"],"SERIES":["EN_ATM_PM25","EN_ATM_PM25"],"UNIT_MEASURE":["NUMBER","NUMBER"],"Value":[31.7,32.1]},"edges":{"From":["Area","REPORTING_TYPE"],"To":["REPORTING_TYPE","TIME_DETAIL"]}}

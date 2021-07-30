@@ -1,0 +1,1 @@
+{"data":{"Year":["2016"],"REPORTING_TYPE":["N"],"TIME_DETAIL":["2016"],"SERIES":["SH_SAN_DEFECT"],"UNIT_MEASURE":["PT"],"Value":[0.84]},"edges":{"From":["REPORTING_TYPE"],"To":["TIME_DETAIL"]}}

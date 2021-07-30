@@ -1,0 +1,1 @@
+{"data":{"Year":["2017"],"REPORTING_TYPE":["N"],"TIME_DETAIL":["2017"],"SERIES":["EN_H2O_OPAMBQ"],"UNIT_MEASURE":["PT"],"Value":[0.92]},"edges":{"From":["REPORTING_TYPE"],"To":["TIME_DETAIL"]}}

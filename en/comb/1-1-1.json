@@ -1,0 +1,1 @@
+{"data":{"Year":["2010","2008","2006","2002","1997"],"REPORTING_TYPE":["N","N","N","N","N"],"TIME_DETAIL":["2010","2008","2006","2002","1997"],"SERIES":["SI_POV_DAY1","SI_POV_DAY1","SI_POV_DAY1","SI_POV_DAY1","SI_POV_DAY1"],"UNIT_MEASURE":["PT","PT","PT","PT","PT"],"Value":[0.1,0.1,0.3,1.1,1.6]},"edges":{"From":["REPORTING_TYPE"],"To":["TIME_DETAIL"]}}
