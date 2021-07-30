@@ -101,6 +101,7 @@ def alter_data(df, context):
     df = set_time_detail(df)
     df = drop_columns(df)
     df = set_series_and_unit(df, context)
+    return df
 
 
 config_path = 'config_data.yml'
