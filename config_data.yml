@@ -110,7 +110,7 @@ reporting_status_extra_fields: []
 sdmx_output_global:
   meta_ref_area: JO
   meta_reporting_type: N
-  defaults:
+  default_values:
     REF_AREA: JO
 
 logging:
