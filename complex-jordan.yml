@@ -1,0 +1,50 @@
+- source_column: Indecaror
+  source_values:
+    (a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by se:
+      SERIES: SP_LGL_LNDAGSEC
+      UNIT_MEASURE: PT
+    (b) share of women among owners or rights-bearers of agricultural land, by type of tenure:
+      SERIES: SP_GNP_WNOWNS
+      UNIT_MEASURE: PT
+- source_column: Indecator
+  source_values:
+    (a)national parliaments:
+      SERIES: SG_GEN_PARL
+      UNIT_MEASURE: PT
+    (b) local governments:
+      SERIES: SG_GEN_LOCG
+      UNIT_MEASURE: PT
+- source_column: Indicators
+  source_values:
+    Broadband internet subscriptions per 100 inhabitants by speed (per 100 population) / ANYS:
+      SERIES: IT_NET_BBND
+      COMPOSITE_BREAKDOWN: _T
+      UNIT_MEASURE: PER_100_POP
+    Fixed broadband subscriptions per 100 inhabitants by speed (per 100 population) / 256KT2MBPS:
+      SERIES: IT_NET_BBND
+      COMPOSITE_BREAKDOWN: IS_256KT2M
+      UNIT_MEASURE: PER_100_POP
+    Fixed Internet broadband subscriptions per 100 inhabitants by speed (per 100 population) / 2MT10MBPS:
+      SERIES: IT_NET_BBND
+      COMPOSITE_BREAKDOWN: IS_2MT10M
+      UNIT_MEASURE: PER_100_POP
+    Fixed internet broadband subscriptions per 100 population of residents by speed (per 100 population) / 10MBPS:
+      SERIES: IT_NET_BBND
+      COMPOSITE_BREAKDOWN: IS_GE10M
+      UNIT_MEASURE: PER_100_POP
+    Number of high-speed broadband Internet subscriptions by speed / 10MBPS (number):
+      SERIES: IT_NET_BBNDN
+      COMPOSITE_BREAKDOWN: IS_GE10M
+      UNIT_MEASURE: NUMBER
+    Number of high-speed broadband Internet subscriptions by speed / 256MT2MBPS (number):
+      SERIES: IT_NET_BBNDN
+      COMPOSITE_BREAKDOWN: IS_256KT2M
+      UNIT_MEASURE: NUMBER
+    Number of high-speed broadband Internet subscriptions by speed / 2MT10MBPS (number):
+      SERIES: IT_NET_BBNDN
+      COMPOSITE_BREAKDOWN: IS_2MT10M
+      UNIT_MEASURE: NUMBER
+    Number of high-speed broadband Internet subscriptions by speed / ANYS (number):
+      SERIES: IT_NET_BBNDN
+      COMPOSITE_BREAKDOWN: _T
+      UNIT_MEASURE: NUMBER

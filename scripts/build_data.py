@@ -1,5 +1,6 @@
 from sdg.open_sdg import open_sdg_build
 from sdg import helpers
+import yaml
 
 
 def fix_time_period(x):
@@ -18,10 +19,7 @@ def set_time_detail(df):
 
 def columns_to_drop():
     return [
-        'scale',
-        'objectivo',
-        'meta',
-        'indicador'
+        'Gross Disbursement'
     ]
 
 
@@ -36,15 +34,6 @@ def drop_columns(df):
         if column in columns_in_data:
             df = df.drop([column], axis=1)
     return df
-
-
-def limit_to_national_ref_area(df, ref_area):
-    def row_matches_ref_area(row):
-        return row['REF_AREA'] == ref_area
-
-    df = df.copy()
-    mask = df.apply(row_matches_ref_area, axis=1)
-    return df[mask]
 
 
 def set_series_and_unit(df, context):
@@ -62,14 +51,6 @@ def set_series_and_unit(df, context):
     return df
 
 
-def alter_data(df, context):
-    df = common_alterations(df)
-    df = set_series_and_unit(df, context)
-    df = set_time_detail(df)
-    df = limit_to_national_ref_area(df, '508')
-    return drop_columns(df)
-
-
 def alter_indicator_id(indicator_id):
     return indicator_id.replace('.', '-')
 
@@ -79,6 +60,47 @@ def alter_meta(meta):
         if meta[key] is not None and isinstance(meta[key], str):
             meta[key] = meta[key].replace("'", "&#39;")
     return meta
+
+
+def apply_complex_mappings(df):
+    try:
+        filename = 'complex-jordan.yml'
+        with open(filename, 'r') as stream:
+            complex_mappings = yaml.load(stream, Loader=yaml.FullLoader)
+            columns = df.columns.to_list()
+            for mapping in complex_mappings:
+                source_column = mapping['source_column']
+                source_values = mapping['source_values']
+                new_columns = source_values[next(iter(source_values))].keys()
+
+                if source_column in columns:
+                    def map_values(row):
+                        source_value = row[source_column]
+                        if source_value in source_values:
+                            mapped_values = source_values[source_value]
+                            for key in mapped_values:
+                                row[key] = mapped_values[key]
+                        return row
+                    for column in new_columns:
+                        df[column] = ''
+                    df = df.apply(map_values, axis='columns')
+                    df = df.drop(columns=[source_column])
+        return df
+    except:
+        return df
+
+
+def alter_data(df, context):
+    column_fixes = {
+        'Yeat': 'Year',
+        'السنة': 'Year',
+    }
+    df = df.rename(columns=column_fixes)
+    df = apply_complex_mappings(df)
+    df = common_alterations(df)
+    df = set_time_detail(df)
+    df = drop_columns(df)
+    df = set_series_and_unit(df, context)
 
 
 config_path = 'config_data.yml'
